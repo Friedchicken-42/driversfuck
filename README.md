@@ -22,6 +22,11 @@ output(int)      -> char
 `input` saves a value from the tape to the driver\
 `output` loads a value from the driver to the tape
 
+## Compile
+`make dll name=driver_name` to compile a driver
+or `make` for everything
+
+
 ## Example - Hello World!
 ~~~
 init initializes the length of the message and return 2;
